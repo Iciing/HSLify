@@ -10,7 +10,7 @@ import org.polyfrost.example.config.TestConfig;
  */
 public class TestHud extends SingleTextHud {
     public TestHud() {
-        super("Test", true);
+        super("Test", false);
     }
 
     @Override
