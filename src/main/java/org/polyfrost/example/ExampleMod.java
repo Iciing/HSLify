@@ -23,7 +23,7 @@ import java.io.IOException;
  */
 @Mod(modid = ExampleMod.MODID, name = ExampleMod.NAME, version = ExampleMod.VERSION)
 public class ExampleMod {
-    public static final String MODID = "0001";
+    public static final String MODID = "hslify";
     public static final String NAME = "HSLify";
     public static final String VERSION = "1.0";
     // Sets the variables from `gradle.properties`. See the `blossom` config in `build.gradle.kts`.
@@ -39,9 +39,8 @@ public class ExampleMod {
         CommandManager.INSTANCE.registerCommand(new ExampleCommand());
     }
 
-    @SubscribeEvent
     public void onRenderGameOverlay(RenderGameOverlayEvent event) {
-        if (event.type == RenderGameOverlayEvent.ElementType.TEXT && TestConfig.enableFilters) {
+        if (TestConfig.enableFilters) {
             applyFilters();
         }
     }
