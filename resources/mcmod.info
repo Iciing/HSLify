@@ -1,16 +1,16 @@
 [
   {
-    "modid": "${id}",
-    "name": "${name}",
-    "description": "",
-    "version": "${version}",
+    "modid": "0001",
+    "name": "HSLify",
+    "description": "It adds HSL (Hue Saturation Lightness) filter to minecraft",
+    "version": "1.0",
     "mcversion": "1.8.9",
-    "url": "",
+    "url": "https://github.com/Iciing/HSLify",
     "updateUrl": "",
     "authorList": [
-      "Your Name"
+      "Iciing"
     ],
-    "credits": "",
+    "credits": "martim also I hate him",
     "logoFile": "",
     "screenshots": [],
     "dependencies": []
