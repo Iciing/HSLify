@@ -1,14 +1,12 @@
 package org.polyfrost.example.config;
 
 import cc.polyfrost.oneconfig.config.Config;
-import cc.polyfrost.oneconfig.config.annotations.HUD;
 import cc.polyfrost.oneconfig.config.annotations.Slider;
 import cc.polyfrost.oneconfig.config.annotations.Switch;
 import cc.polyfrost.oneconfig.config.data.Mod;
 import cc.polyfrost.oneconfig.config.data.ModType;
 import cc.polyfrost.oneconfig.config.data.OptionSize;
 import org.polyfrost.example.ExampleMod;
-import org.polyfrost.example.hud.TestHud;
 
 /**
  * The main Config entrypoint that extends the Config type and init the config options.
